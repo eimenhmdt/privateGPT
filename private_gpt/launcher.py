@@ -71,15 +71,15 @@ def create_app(root_injector: Injector) -> FastAPI:
             if app.openapi_schema:
                 return app.openapi_schema
             openapi_schema = get_openapi(
-                title="PrivateGPT",
+                title="VDP-GPT",
                 description=description,
                 version="0.1.0",
-                summary="PrivateGPT is a production-ready AI project that allows you to "
+                summary="VDP-GPT is a production-ready AI project that allows you to "
                 "ask questions to your documents using the power of Large Language "
-                "Models (LLMs), even in scenarios without Internet connection. "
+                "Models (LLMs), even in scenarios without Internet connection."
                 "100% private, no data leaves your execution environment at any point.",
                 contact={
-                    "url": "https://github.com/imartinez/privateGPT",
+                    "url": "https://github.com/eimenhmdt",
                 },
                 license_info={
                     "name": "Apache 2.0",
