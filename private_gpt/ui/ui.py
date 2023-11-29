@@ -26,9 +26,9 @@ THIS_DIRECTORY_RELATIVE = Path(__file__).parent.relative_to(PROJECT_ROOT_PATH)
 # Should be "private_gpt/ui/avatar-bot.ico"
 AVATAR_BOT = THIS_DIRECTORY_RELATIVE / "avatar-bot.ico"
 
-UI_TAB_TITLE = "My Private GPT"
+UI_TAB_TITLE = "VDP GPT"
 
-SOURCES_SEPARATOR = "\n\n Sources: \n"
+SOURCES_SEPARATOR = "\n\n Quellen: \n"
 
 
 class Source(BaseModel):
